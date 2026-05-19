@@ -1,61 +1,35 @@
 # OTML Practical 2: Model Fitting and Error Measurement
 
-. Objective
-To understand model fitting and error measurement using a Music Recommendation System.
+## 1. Aim
 
-. Concepts Covered
-- Data Loading
-- Feature Selection
-- Train-Test Split
-- Decision Tree Classifier
-- Model Fitting
-- Prediction
-- Accuracy Measurement
+The aim of this practical is to understand how a machine learning model is fitted on training data and how its performance is measured using error or accuracy-based evaluation.
 
-. OTML Concepts Mapped
-- Model Fitting
-- Error Measurement
-- Optimization
-- Prediction
-- Learning
+In this practical, students use a simple Music Genre Recommendation System to train a supervised learning model and evaluate how well the model predicts the correct music genre based on user information such as age and gender.
 
-. Technologies Used
-- Python
-- Jupyter Notebook
-- Pandas
-- Scikit-learn
-- Matplotlib
+---
 
-. Dataset
-music1.csv
+## 2. Course and Module Mapping
 
-. Files Included
-- OTML_Practical_2.ipynb
-- music1.csv
-- requirements.txt
+**Course:** A8751 – Optimization Techniques in Machine Learning  
+**Module:** Module 1 – Model Fitting and Error Measurement  
+**Practical Topic:** Model Fitting and Error Measurement using a Music Genre Recommendation System
 
-. How to Run
+This practical is mapped with Module 1 of OTML, where students learn the basic idea of model fitting, prediction, error measurement, and evaluation of machine learning models.
 
-| Step 1
-Install requirements
+---
 
-pip install -r requirements.txt
+## 3. Theory Background
 
-| Step 2
-Open Jupyter Notebook
+In machine learning, **model fitting** means training a model using available data so that it can learn the relationship between input features and output labels.
 
-jupyter notebook
+A dataset usually contains:
 
-| Step 3
-Open:
-OTML_Practical_2.ipynb
+- **Input features:** Variables used by the model for prediction.
+- **Output label:** The target value or class to be predicted.
+- **Training data:** Data used to teach the model.
+- **Testing data:** Data used to evaluate the trained model.
 
-| Step 4
-Run all cells sequentially
+In this practical, the input features are:
 
-. Learning Outcome
-Students will understand how machine learning models are trained and evaluated using accuracy metrics.
-
-
-Prepared by : Manish Chhabra ,MSc. CS, MCA Gold Medalist, M. Tech. CSE, 
-                           PhD. CSE(Cloud Computing using ML/NLP)**
+```text
+age, gender
